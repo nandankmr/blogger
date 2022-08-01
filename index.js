@@ -28,10 +28,6 @@ app.get('/error', (req, res) => {
   }
 })
 
-app.post("get-logs", (req, res) => {
-  console.log(req.body);
-})
-
 app.listen(3000, () => {
   console.info("Server started on port 3000");
 })
